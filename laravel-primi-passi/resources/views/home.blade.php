@@ -21,7 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <a href="{{ route('about') }}">About</a>
+        @include('header')
         <h1>{{ $title }}</h1>
     </body>
 </html>
